@@ -1,8 +1,15 @@
 import unittest
+from src.BMICalculator import BMICalculator
 
+class BMITest(unittest.TestCase):
+    def test_BMI_Calculator(self):
+        #stub
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
+        #assume
+
+        #action
+
+        #expect/assert
         self.assertEqual(True, False)
 
 

@@ -1,7 +1,7 @@
 import unittest
-from src.BMICalculator import BMICalculator
+import BMI_Calculator.src.BMICalculator
 
-class BMITest(unittest.TestCase):
+class BMICalculatorTest(unittest.TestCase):
     def test_BMI_Calculator(self):
         #stub
 

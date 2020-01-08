@@ -10,24 +10,31 @@ First, we coded the test cases for each software and then we coded the BMI softw
 ## Project Structure
 The tree below displays the files and folders structure:
 ```
-├── BMI_Calculator
-|  ├── src
-|  ├── test
-|  └── .gitkeep
-├── Bubble_sort 
-|  ├── src
-|  ├── test
-|  └── .gitkeep
+├── src
+|  ├── bmi_calculator.py
+|  ├── bubble_sort.py
+|  └── main.py
+├── test
+|  ├──
+|  ├──
+|  ├──
+|  ├──
+|  └──
+├──.gitignore
 └── README.md
 ```
 
 ## BMI  Calculator Test's
-![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dietspotlight.com%2Fwp-content%2Fuploads%2FBMI-Chart-Normal-weight.jpg&f=1&nofb=1)
-###### Taken from: www.dietspotlight.com
+Body mass index (BMI) is a simple index of weight-for-height that is commonly used to classify overweight and obesity in adults.
+It is defined as a person's weight in kilograms divided by the square of his height in meters (Kg/m^2). 
 
 ## Buuble Sort Test's
-![alt text](https://qnaplus.com/wp-content/uploads/2017/04/bubble_sort_graphical_illustration.gif)
-###### Taken from: https://qnaplus.com/implement-bubble-sort-c/
+Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list,
+compares adjacent elements and swaps them if they are in the wrong order.
+The pass through the list is repeated until the list is sorted.
+The algorithm, which is a comparison sort, is named for the way smaller or larger elements "bubble" to the top of the list.
+Although the algorithm is simple, it is too slow and impractical for most problems even when compared to insertion sort.
+Bubble sort can be practical if the input is in mostly sorted order with some out-of-order elements nearly in position
 
 
 ## Authors

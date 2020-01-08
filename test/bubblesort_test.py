@@ -5,7 +5,7 @@ from src.bubble_sort import *
 class MyTestCase(unittest.TestCase):
 
     def test_return_value(self):
-        self.assertEqual(bubble_sort(None), not None)
+        self.assertIsNotNone(bubble_sort(None))
 
     def test_no_lost_values(self):
         stub = [3, 1, 2, 5, 4]

@@ -1,4 +1,5 @@
-![alt text](http://r-stylelab.com/wp-content/uploads/2018/07/tdd-cycle1.png)
+<div style="text-align: center"><img src="http://r-stylelab.com/wp-content/uploads/2018/07/tdd-cycle1.png" alt="TDD Cycle"/></div>
+
 ###### Taken from: https://r-stylelab.com/company/blog/web-development/from-tdd-to-bdd-when-to-switch-and-how-to-apply
 # Test-Driven Development Project
 
@@ -28,7 +29,7 @@ The tree below displays the files and folders structure:
 Body mass index (BMI) is a simple index of weight-for-height that is commonly used to classify overweight and obesity in adults.
 It is defined as a person's weight in kilograms divided by the square of his height in meters (Kg/m^2). 
 
-## Buuble Sort Test's
+## Bubble Sort Test's
 Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list,
 compares adjacent elements and swaps them if they are in the wrong order.
 The pass through the list is repeated until the list is sorted.

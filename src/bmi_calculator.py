@@ -1,5 +1,5 @@
 def bmi_calc(body_mass, body_height):
-    pass
+    return body_mass / body_height ** 2
 
 
 def category_by_bmi(bmi_value):

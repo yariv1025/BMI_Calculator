@@ -4,10 +4,10 @@ from src.bubble_sort import *
 
 def main():
     # BMI Calc
-    body_mass = input("Please Enter body mass:")
+    body_mass = input("Please Enter body mass in kg:")
     body_height = input("Please Enter body height in meters:")
 
-    print("your BMI category is : " + category_by_bmi( bmi_calc(body_mass, body_height)))
+    print("your BMI category is : " + str(category_by_bmi(bmi_calc(body_mass, body_height))))
 
     # Bubble sort
     array = []

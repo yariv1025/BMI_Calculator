@@ -1,12 +1,21 @@
+from src.is_number import IsNumber
+
+
 def bmi_calc(body_mass, body_height):
-    pass
+    if (IsNumber(body_mass) and IsNumber(body_height)):
+        body_mass=float(body_mass)
+        body_height = float(body_height)
+        if (body_mass > 0 and body_mass < 150 and body_mass != None):
+            if (body_height > 0 and body_height < 2.5 and body_height != None):
+                return body_mass / body_height ** 2
+    return "Wrong value's: Please insert positive numbers. Weight in kg and Height in meters!"
 
 
 def category_by_bmi(bmi_value):
     if not isinstance(bmi_value, (int, float)):
-        raise ValueError('Inappropriate type: {}'.format(type(bmi_value)))
-    if bmi_value <= 0:
-        return "Error"
+        raise TypeError
+    if bmi_value < 0:
+        return "bmi_value must be positive."
     if bmi_value < 15:
         return "Very severely underweight"
     if 16 > bmi_value >= 15:

@@ -1,5 +1,14 @@
+from src.is_number import IsNumber
+
+
 def bmi_calc(body_mass, body_height):
-    return body_mass / body_height ** 2
+    if (IsNumber(body_mass) and IsNumber(body_height)):
+        body_mass=float(body_mass)
+        body_height = float(body_height)
+        if (body_mass > 0 and body_mass < 150 and body_mass != None):
+            if (body_height > 0 and body_height < 2.5 and body_height != None):
+                return body_mass / body_height ** 2
+    return "Wrong value's: Please insert positive numbers. Weight in kg and Height in meters!"
 
 
 def category_by_bmi(bmi_value):

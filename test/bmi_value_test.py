@@ -2,7 +2,8 @@ import unittest
 from src.bmi_calculator import bmi_calc
 
 
-class BMIValueTest(unittest.TestCase):
+class BMICalculatorTest(unittest.TestCase):
+
     def test_calculation(self):
         # stub
         stub_body_mass1 = 30
@@ -30,19 +31,18 @@ class BMIValueTest(unittest.TestCase):
         self.assertEqual(result3, expected3)
 
     def test_division_By_Zero(self):
-        with self.assertRaises(ZeroDivisionError):
-            # stub
-            stub_body_mass1 = 30
-            stub_body_height1 = 0
+        # stub
+        stub_body_mass1 = 30
+        stub_body_height1 = 0
 
-            # assume
-            expected = ZeroDivisionError
+        # assume
+        expected = "Wrong value's: Please insert positive numbers. Weight in kg and Height in meters!"
 
-            # action
-            result1 = bmi_calc(stub_body_mass1, stub_body_height1)
+        # action
+        result1 = bmi_calc(stub_body_mass1, stub_body_height1)
 
-            # expect / assert
-            self.assertRaises(ZeroDivisionError, result1)
+        # expect / assert
+        self.assertEqual(result1, expected)
 
     def test_negative_number(self):
         # stub
@@ -50,13 +50,13 @@ class BMIValueTest(unittest.TestCase):
         stub_body_height1 = 1.50
 
         # assume
-        expected = -13.33
+        expected1 = "Wrong value's: Please insert positive numbers. Weight in kg and Height in meters!"
 
         # action
         result1 = bmi_calc(stub_body_mass1, stub_body_height1)
 
         # expect / assert
-        self.assertLess(result1, expected)
+        self.assertEqual(result1, expected1)
 
     def test_only_numbers(self):
         with self.assertRaises(TypeError):
@@ -67,8 +67,8 @@ class BMIValueTest(unittest.TestCase):
             stub_body_mass2 = 50
             stub_body_height2 = 'a'
 
-            stub_body_mass3 = '$'
-            stub_body_height3 = '#'
+            stub_body_mass3 = '#'
+            stub_body_height3 = 'a'
 
             stub_body_mass4 = None
             stub_body_height4 = None

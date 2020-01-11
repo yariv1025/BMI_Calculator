@@ -4,14 +4,16 @@ from src.bmi_calculator import category_by_bmi
 
 class TestCategoryByBMI(unittest.TestCase):
     def test_type_BMI(self):
-        with self.assertRaises(TypeError):
-            stub_char = 'a'
-            stub_none = None
+        stub_char = 'a'
+        stub_none = None
 
-            expected = TypeError
+        expected = "bmi_value is not numeric."
 
-            result1 = category_by_bmi(stub_char)
-            result2 = category_by_bmi(stub_none)
+        result1 = category_by_bmi(stub_char)
+        result2 = category_by_bmi(stub_none)
+
+        self.assertEqual(result1, expected)
+        self.assertEqual(result2, expected)
 
 
 

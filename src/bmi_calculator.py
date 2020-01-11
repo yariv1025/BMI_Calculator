@@ -13,28 +13,28 @@ def bmi_calc(body_mass, body_height):
 
 def category_by_bmi(bmi_value):
     if not isinstance(bmi_value, (int, float)):
-        raise TypeError
-    if bmi_value < 0:
+        return "bmi_value is not numeric."
+    elif bmi_value < 0:
         return "bmi_value must be positive."
-    if bmi_value < 15:
+    elif bmi_value < 15:
         return "Very severely underweight"
-    if 16 > bmi_value >= 15:
+    elif 16 > bmi_value >= 15:
         return "Severely underweight"
-    if 18.5 > bmi_value >= 16:
+    elif 18.5 > bmi_value >= 16:
         return "Underweight"
-    if 25 > bmi_value >= 18.5:
+    elif 25 > bmi_value >= 18.5:
         return "Normal"
-    if 30 > bmi_value >= 25:
+    elif 30 > bmi_value >= 25:
         return "Overweight"
-    if 35 > bmi_value >= 30:
+    elif 35 > bmi_value >= 30:
         return "Moderately obese"
-    if 40 > bmi_value >= 35:
+    elif 40 > bmi_value >= 35:
         return "Severely obese"
-    if 45 > bmi_value >= 40:
+    elif 45 > bmi_value >= 40:
         return "Very severely obese"
-    if 50 > bmi_value >= 45:
+    elif 50 > bmi_value >= 45:
         return "Morbidly obese"
-    if 60 > bmi_value >= 50:
+    elif 60 > bmi_value >= 50:
         return "Super obese"
-    if bmi_value >= 60:
+    elif bmi_value >= 60:
         return "Hyper obese"

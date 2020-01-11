@@ -3,6 +3,9 @@ from src.bubble_sort import *
 
 
 def main():
+
+    print(bmi_calc(None, 20))
+
     # BMI Calc
     body_mass = input("Please Enter body mass in kg:")
     body_height = input("Please Enter body height in meters:")

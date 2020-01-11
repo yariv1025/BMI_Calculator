@@ -2,5 +2,5 @@ def IsNumber(value):
     try:
         float(value)
         return True
-    except ValueError:
+    except ValueError and TypeError:
         return False

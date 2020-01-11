@@ -18,7 +18,7 @@ class TestCategoryByBMI(unittest.TestCase):
     def test_Negative_BMI(self):
         stub = -1
 
-        expected = "Error"
+        expected = "bmi_value must be positive."
 
         result = category_by_bmi(stub)
 

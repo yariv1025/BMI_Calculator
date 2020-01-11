@@ -3,6 +3,8 @@ def bmi_calc(body_mass, body_height):
 
 
 def category_by_bmi(bmi_value):
+    if not isinstance(bmi_value, (int, float)):
+        raise ValueError('Inappropriate type: {}'.format(type(bmi_value)))
     if bmi_value <= 0:
         return "Error"
     if bmi_value < 15:
@@ -13,6 +15,8 @@ def category_by_bmi(bmi_value):
         return "Underweight"
     if 25 > bmi_value >= 18.5:
         return "Normal"
+    if 30 > bmi_value >= 25:
+        return "Overweight"
     if 35 > bmi_value >= 30:
         return "Moderately obese"
     if 40 > bmi_value >= 35:

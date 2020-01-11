@@ -3,6 +3,19 @@ from src.bmi_calculator import category_by_bmi
 
 
 class TestCategoryByBMI(unittest.TestCase):
+    def test_type_BMI(self):
+        stub_char = 'a'
+        stub_none = None
+
+        expected = TypeError
+
+        result1 = category_by_bmi(stub_char)
+        result12 = category_by_bmi(stub_none)
+
+        self.assertRaises(TypeError, result1)
+        self.assertRaises(TypeError, result12)
+
+
     def test_Negative_BMI(self):
         stub = -1
 

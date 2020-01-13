@@ -5,31 +5,30 @@
 
 Test-driven development is a software development process that relies on the repetition of a very short development cycle:
 requirements are turned into very specific test cases, then the software is improved so that the tests pass.
-___
-In our project, we worked on TDD's attitude.
-First, we coded the test cases for each software and then we coded the BMI software and the Bubble Sort software.
+
+#####In our project, we worked on TDD's attitude. First, we coded the test cases for each software and then we coded the BMI software and the Bubble Sort software.
 ## Project Structure
 The tree below displays the files and folders structure:
 ```
 ├── src
+|  ├── .gitignore
+|  ├── .gitkeep
 |  ├── bmi_calculator.py
 |  ├── bubble_sort.py
+|  ├── is_number.py
 |  └── main.py
 ├── test
-|  ├──
-|  ├──
-|  ├──
-|  ├──
-|  └──
+|  ├── .gitkeep
+|  ├── bmi_value_test.py
+|  └── category_by_bmi.py
 ├──.gitignore
 └── README.md
 ```
 
-## BMI  Calculator Test's
+## BMI  Calculator
 Body mass index (BMI) is a simple index of weight-for-height that is commonly used to classify overweight and obesity in adults.
-It is defined as a person's weight in kilograms divided by the square of his height in meters (Kg/m^2). 
-
-## Bubble Sort Test's
+It is defined as a person's weight in kilograms divided by the square of his height in meters (Kg/m^2).
+## Bubble Sort
 Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list,
 compares adjacent elements and swaps them if they are in the wrong order.
 The pass through the list is repeated until the list is sorted.

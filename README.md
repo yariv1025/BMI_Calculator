@@ -1,4 +1,6 @@
-<div style="text-align: center"><img src="https://3fxtqy18kygf3on3bu39kh93-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Screenshot-2020-12-31-at-4.02.29-PM.png" alt="TDD Cycle"/></div>
+<p align="center">
+  <img src="https://3fxtqy18kygf3on3bu39kh93-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Screenshot-2020-12-31-at-4.02.29-PM.png" alt="TDD Cycle"/>
+</p>
 
 ###### Image taken from: [browserstack](https://www.browserstack.com/guide/what-is-test-driven-development)
 # Test-Driven Development Project

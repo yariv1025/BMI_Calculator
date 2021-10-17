@@ -6,7 +6,7 @@
 Test-driven development is a software development process that relies on the repetition of a very short development cycle:
 requirements are turned into very specific test cases, then the software is improved so that the tests pass.
 
-#####In our project, we worked on TDD's attitude. First, we coded the test cases for each software and then we coded the BMI software and the Bubble Sort software.
+##### In our project, we worked on TDD's attitude. First, we coded the test cases for each software and then we coded the BMI software and the Bubble Sort software.
 ## Project Structure
 The tree below displays the files and folders structure:
 ```

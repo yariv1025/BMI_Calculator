@@ -1,6 +1,6 @@
-<div style="text-align: center"><img src="http://r-stylelab.com/wp-content/uploads/2018/07/tdd-cycle1.png" alt="TDD Cycle"/></div>
+<div style="text-align: center"><img src="https://3fxtqy18kygf3on3bu39kh93-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Screenshot-2020-12-31-at-4.02.29-PM.png" alt="TDD Cycle"/></div>
 
-###### Taken from: https://r-stylelab.com/company/blog/web-development/from-tdd-to-bdd-when-to-switch-and-how-to-apply
+###### Image taken from: [browserstack](https://www.browserstack.com/guide/what-is-test-driven-development)
 # Test-Driven Development Project
 
 Test-driven development is a software development process that relies on the repetition of a very short development cycle:
